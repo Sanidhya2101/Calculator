@@ -5,13 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
 
 
     <TextView
         android:id="@+id/secondary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FAF3DD"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/main"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,11 +25,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="textEnd"
+        android:textColor="#FAF3DD"
         android:layout_marginBottom="40dp"
         android:paddingEnd="10dp"
         android:paddingStart="10dp"
         android:textSize="48sp"
         android:ems="10"
+        android:textColorHint="#FAF3DD"
         android:inputType="textPersonName"
         android:hint="Name"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
@@ -40,7 +45,7 @@
         android:id="@+id/constraintLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
@@ -48,8 +53,9 @@
 
         <Button
             android:id="@+id/clearbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
             android:background="@drawable/btn_background"
             android:onClick="clearbtn"
             android:text="C"
@@ -60,8 +66,11 @@
 
         <Button
             android:id="@+id/equalbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="equalbtn"
             android:text="="
@@ -71,8 +80,11 @@
 
         <Button
             android:id="@+id/decimalbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="decimalbtn"
             android:text="."
@@ -83,7 +95,9 @@
         <Button
             android:id="@+id/zerobtn"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/btn_background"
             android:onClick="zerobtn"
             android:text="0"
@@ -94,8 +108,11 @@
 
         <Button
             android:id="@+id/plusbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="plusbtn"
             android:text="+"
@@ -105,8 +122,11 @@
 
         <Button
             android:id="@+id/threebtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="threebtn"
             android:text="3"
@@ -116,8 +136,11 @@
 
         <Button
             android:id="@+id/twobtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="twobtn"
             android:text="2"
@@ -127,8 +150,10 @@
 
         <Button
             android:id="@+id/onebtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/btn_background"
             android:onClick="onebtn"
             android:text="1"
@@ -138,8 +163,11 @@
 
         <Button
             android:id="@+id/minusbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="minusbtn"
             android:text="-"
@@ -149,8 +177,11 @@
 
         <Button
             android:id="@+id/sixbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="sixbtn"
             android:text="6"
@@ -160,8 +191,11 @@
 
         <Button
             android:id="@+id/fivebtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="fivebtn"
             android:text="5"
@@ -171,8 +205,10 @@
 
         <Button
             android:id="@+id/fourbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:textSize="28sp"
             android:background="@drawable/btn_background"
             android:onClick="fourbtn"
             android:text="4"
@@ -182,8 +218,11 @@
 
         <Button
             android:id="@+id/mulbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="multiplybtn"
             android:text="×"
@@ -193,8 +232,11 @@
 
         <Button
             android:id="@+id/ninebtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/btn_background"
             android:onClick="ninebtn"
             android:text="9"
@@ -204,8 +246,11 @@
 
         <Button
             android:id="@+id/eightbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="28sp"
             android:background="@drawable/btn_background"
             android:onClick="eightbtn"
             android:text="8"
@@ -215,10 +260,12 @@
 
         <Button
             android:id="@+id/sevenbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/btn_background"
             android:onClick="sevenbtn"
+            android:textSize="28sp"
             android:text="7"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
@@ -226,41 +273,55 @@
 
         <Button
             android:id="@+id/dividebtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
             android:background="@drawable/btn_background"
             android:onClick="dividebtn"
             android:text="÷"
             android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@+id/rightopen"
-            app:layout_constraintTop_toBottomOf="@+id/clearbtn" />
+            app:layout_constraintTop_toBottomOf="@+id/clearbtn"
+            android:layout_marginLeft="10dp" />
 
         <Button
             android:id="@+id/leftopen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="28sp"
             android:background="@drawable/btn_background"
             android:onClick="rightbtn"
             android:text="("
             android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@+id/AC"
-            app:layout_constraintTop_toBottomOf="@+id/clearbtn" />
+            app:layout_constraintTop_toBottomOf="@+id/clearbtn"
+            android:layout_marginLeft="10dp" />
 
         <Button
             android:id="@+id/rightopen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="28sp"
             android:background="@drawable/btn_background"
             android:onClick="leftbtn"
             android:text=")"
             android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@+id/leftopen"
-            app:layout_constraintTop_toBottomOf="@+id/clearbtn" />
+            app:layout_constraintTop_toBottomOf="@+id/clearbtn"
+            android:layout_marginLeft="10dp" />
 
         <Button
             android:id="@+id/AC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:textSize="28sp"
             android:background="@drawable/btn_background"
             android:onClick="acbtn"
             android:text="AC"
