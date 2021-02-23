@@ -3,6 +3,8 @@ package com.example.calculator;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
@@ -41,6 +43,14 @@ public class MainActivity extends AppCompatActivity {
         display.setSelection(cursorPos+newStr.length());
     }
 
+    public void landscapebtn(View v)
+    {
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+    }
+    public void portraitbtn(View v)
+    {
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+    }
 
     public void zerobtn(View v)
     {
@@ -113,6 +123,11 @@ public class MainActivity extends AppCompatActivity {
         updateText(".");
     }
 
+    public void nd2btn(View v)
+    {
+
+    }
+
     public void clearbtn(View v)
     {
         int cursorPos = display.getSelectionStart();
@@ -129,18 +144,20 @@ public class MainActivity extends AppCompatActivity {
     public void acbtn(View v)
     {
         display.setText("");
+        previous.setText("");
     }
 
     public void equalbtn(View v)
     {
         String eq = display.getText().toString();
+        String eqoriginal = eq;
 
         eq = eq.replace("÷","/");
         eq = eq.replace("×","*");
 
         Expression exp = new Expression(eq);
         String result = String.valueOf(exp.calculate());
-        previous.setText(eq);
+        previous.setText(eqoriginal);
         display.setText(result);
         display.setSelection(result.length());
 

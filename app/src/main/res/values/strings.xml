@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Calculator</string>
+
+    <string name="expo">e<sup>x</sup></string>
+    <string name="expo1">x<sup>2</sup></string>
+    <string name="expo2">y<sup>x</sup></string>
 </resources>
