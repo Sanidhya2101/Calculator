@@ -4,4 +4,12 @@
     <string name="expo">e<sup>x</sup></string>
     <string name="expo1">x<sup>2</sup></string>
     <string name="expo2">y<sup>x</sup></string>
+
+    <string name="power10">10<sup>x</sup></string>
+    <string name="coshinverse">cosh<sup>-1</sup></string>
+    <string name="sinhinverse">sinh<sup>-1</sup></string>
+    <string name="tanhinverse">tanh<sup>-1</sup></string>
+    <string name="cosinverse">cos<sup>-1</sup></string>
+    <string name="sininverse">sin<sup>-1</sup></string>
+    <string name="taninverse">tan<sup>-1</sup></string>
 </resources>
