@@ -1,4 +1,4 @@
-# Calculator
+# Scientific Calculator
 Started on 20 February 2021
 
 ## Overview
@@ -13,7 +13,7 @@ The scientific calculator is a type of an electronic calculator in which differe
 
 ## Features
 1. It has a simple responsive UI design that can be understood easily by all users and fits with all sizes of screens. 
-2. The calculator has a standard display and it shows complicated expressions by clicking on the arrow button.
+2. The calculator has a standard display and it shows goes to landscape mode by clicking on the arrow button.
 3. This application has specific button for each operation.
 4. It can perform all the basic arithmetic operations (+, -, *, /). 
 5. It can calculate decimal value including floating point number. 
