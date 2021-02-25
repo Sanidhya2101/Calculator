@@ -25,3 +25,4 @@ The scientific calculator is a type of an electronic calculator in which differe
 ## Screenshots
 
 Simple Calculator display:
+![1]
