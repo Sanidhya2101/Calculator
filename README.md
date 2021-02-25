@@ -25,10 +25,15 @@ The scientific calculator is a type of an electronic calculator in which differe
 ## Screenshots
 
 <div>
-  <img src="https://user-images.githubusercontent.com/58555534/109202858-78938e00-77c9-11eb-9997-0ccdaddf08f1.jpg" alt="Standard Calculator" height="700dp">
+  <img src="https://user-images.githubusercontent.com/58555534/109202858-78938e00-77c9-11eb-9997-0ccdaddf08f1.jpg" alt="Standard Layout" height="700dp">
 </div>
 
 ---
+
+
+<div>
+  <img src="https://user-images.githubusercontent.com/58555534/109203504-3ae33500-77ca-11eb-9889-3d5d62335de3.jpg" alt="Scientific Layut" height="700dp">
+</div>
 
 
 
